@@ -5,12 +5,11 @@
 [vidsm website](https://vidsm.herokuapp.com/)
 
 ## what I did
+last time I saw a person share his website that allows people downloading social media videos widthout ADS, so that as I am a Front-End Developer and Ui designer I am always make websites  so attractive and well orgnazied I tried to make a new UI to his website.
 
-Developing the new  UI of website using :
+Technolgies used : 
 
 - Adobe XD
-
-implementation using : 
 - bootstrap 4 
 - Html5
 - Css3
