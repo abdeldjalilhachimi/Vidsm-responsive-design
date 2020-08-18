@@ -1,0 +1,151 @@
+/* 
+# Theme : VIDsm 
+# Coder : Abdeldjalil Hachimi
+
+*/
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --maincolor: #6dd4a7;
+  --secondcolor: #eff7f3;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+/* Start Header */
+header {
+  background: var(--secondcolor);
+}
+header h1 {
+  /* Font */
+  font-size: 25px;
+  /* Color */
+  color: var(--maincolor);
+}
+header h1 span {
+  /* Color */
+  color: gray;
+}
+/* End Header */
+
+/* Start download bar  */
+main {
+  background: var(--secondcolor);
+}
+<<<<<<< HEAD
+main h2 {
+  /* color */
+  color: gray;
+=======
+.sign-up .sign-up-image {
+  background-image: url("https://images.unsplash.com/photo-1597296392998-57f2865c6f88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80");
+  background-position: center;
+  height: 930px;
+>>>>>>> 3856da34656e6f211405029970b70f1369343d8a
+}
+
+main ul li {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: var(--maincolor);
+}
+main form input[type="text"] {
+  /* Dimention */
+  padding: 15px;
+  width: 330px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px rgb(241, 238, 238);
+}
+
+main form input[type="submit"] {
+  /* Dimention */
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 30px;
+  margin: 20px auto;
+  outline: none;
+  width: 130px;
+  /* Color */
+  background: var(--maincolor);
+  color: white;
+  /* Click */
+  cursor: pointer;
+  /* Animation */
+  transition: all 0.5s ease-in-out;
+}
+@media screen and (max-width: 750px) {
+  main form input[type="submit"] {
+    display: block;
+    width: 250px;
+    margin: 20px auto;
+  }
+}
+
+main form input[type="submit"]:hover {
+  /* Color */
+  background: transparent;
+  color: var(--maincolor);
+  /* Click */
+  cursor: pointer;
+  /* Border */
+  border: 1px solid var(--maincolor);
+}
+/* End download bar */
+
+/* Start How to  */
+
+section h2 {
+  /* Dimention */
+  margin-top: 50px;
+  /* Color */
+  color: gray;
+}
+
+section .box {
+  /* Dimention */
+  max-height: 180px;
+  padding: 10px;
+
+  /* Color */
+  background: var(--secondcolor);
+  color: gray;
+}
+section .box span {
+  /* Dimention */
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px auto;
+  border: 1px solid var(--maincolor);
+  border-radius: 30px;
+  /* Font */
+  text-align: center;
+  /* Color */
+  color: var(--maincolor);
+}
+section .box p {
+  /* Font */
+  text-align: center;
+  /* Dimention */
+}
+/* ENd How to */
+
+/* Start footer */
+footer {
+  padding: 10px;
+  margin-top: 100px;
+  color: gray;
+  background: var(--secondcolor);
+}
+/* End Header */
